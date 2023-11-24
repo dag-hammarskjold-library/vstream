@@ -2,3 +2,5 @@
 2. Create and activate your virtual environment, e.g., `python3 -m virtualenv venv && source venv/bin/activate`
 3. Install requirements: `pip install -r requirements.txt`
 4. Run in debug mode to develop and test: `flask --app vote run --debug --reload`
+
+Note: You need credentials to read and write from Parameter Store.

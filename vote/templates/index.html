@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    {% for vote in votes %}
+    <p><a href="{{url_for('get_file', key=vote["Key"])}}">{{vote["Key"]}}</a></p>
+    {% endfor %}
+</div>
+{% endblock %}
